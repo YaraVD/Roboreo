@@ -26,5 +26,6 @@ public class Main
         Sound.beepSequence();
         Delay.msDelay(500);
         Button.LEDPattern(0);
+        System.out.println("yes");
     }
 }
