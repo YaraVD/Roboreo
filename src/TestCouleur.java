@@ -133,6 +133,9 @@ public class TestCouleur {
 				System.out.println("Valeur bleu : " + black);
 				System.out.println("All colors Calibrated :) PS : T'as pécho hier ?");
 				
+				saveFile f = new saveFile("/lejos/config/colors.txt");
+				f.writeColor(colors);
+				
 				while (again) {
 					float[] sample = new float[average.sampleSize()];
 					System.out.println("\nPress enter to detect a color...");
