@@ -1,14 +1,15 @@
-import java.util.HashMap;
+	import java.util.HashMap;
+
 import lejos.hardware.Button;
-import lejos.hardware.ev3.LocalEV3;
-import lejos.hardware.lcd.Font;
-import lejos.hardware.lcd.GraphicsLCD;
-import lejos.hardware.port.Port;
-import lejos.hardware.sensor.EV3ColorSensor;
-import lejos.robotics.SampleProvider;
-import lejos.robotics.filter.MeanFilter;
-import lejos.utility.Delay;
-import lejos.robotics.Color;
+	import lejos.hardware.ev3.LocalEV3;
+	import lejos.hardware.lcd.Font;
+	import lejos.hardware.lcd.GraphicsLCD;
+	import lejos.hardware.port.Port;
+	import lejos.hardware.sensor.EV3ColorSensor;
+	import lejos.robotics.SampleProvider;
+	import lejos.robotics.filter.MeanFilter;
+	import lejos.utility.Delay;
+	import lejos.robotics.Color;
 	
 public class TestCouleur {
 	
