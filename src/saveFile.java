@@ -21,7 +21,7 @@ public class saveFile {
 				String s = entry.getKey();
 				float[] values = entry.getValue();
 				for (float f : values) {
-					s += ";" + f;
+					s += ";" + f; 
 				}
 				s+="\n";
 				fw.write(s);

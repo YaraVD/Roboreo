@@ -13,7 +13,7 @@ public class localMain {
 		f.writeColor(h);
 		saveFile f2 = new saveFile("test.txt");
 		HashMap<String, float[]> h2 = f.readColor();
-		System.out.println(h2.get("rouge")[0]);
+		System.out.println(h2.get("rouge")[0]); 
 	}
 
 }
