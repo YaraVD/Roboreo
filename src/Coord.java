@@ -40,9 +40,7 @@ public class Coord {
 	}
 	
 	public double theta(Coord c) {
-	    double angle = Math.toDegrees(Math.atan2(this.y - c.y(), c.x() - this.x));
-	    return angle;
-//	    		<= 180? angle: angle - 360;
+	    return Math.toDegrees(Math.atan2(this.y - c.y(), c.x() - this.x));
 	}
 
 }

@@ -20,7 +20,7 @@ public class Robot extends MovePilot {
 		this.colorsensor = new ColorSensor();
 
 		this.setLinearAcceleration(100);
-		this.setLinearSpeed(10);  // cm/sec
+		this.setLinearSpeed(20);  // cm/sec
 		this.setAngularSpeed(90); // deg/sec
 	}
 

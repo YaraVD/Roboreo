@@ -9,16 +9,14 @@ public class Claws {
 	
 	public void release() {
 		Motor.D.forward();
-		Delay.msDelay(3500);
+		Delay.msDelay(1800);
 		Motor.D.stop();
 	}
 	
 	public void grab() {
 		Motor.D.backward();
-		Delay.msDelay(3500);
+		Delay.msDelay(1800);
 		Motor.D.stop();
 	}
-	
-	
 
 }
