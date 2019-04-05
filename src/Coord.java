@@ -1,18 +1,18 @@
 public class Coord {
 
-	private int x;
-	private int y;
+	private double x;
+	private double y;
 
-	public Coord(int x, int y) {
+	public Coord(double x, double y) {
 		this.x = x;
 		this.y = y;
 	}
 
-	public int x() {
+	public double x() {
 		return x;
 	}
 
-	public int y() {
+	public double y() {
 		return y;
 	}
 
@@ -38,7 +38,7 @@ public class Coord {
 	public String toString() {
 		return "(" + this.x + ";" + this.y + ")";
 	}
-	
+
 	public double theta(Coord c) {
 	    return Math.toDegrees(Math.atan2(this.y - c.y(), c.x() - this.x));
 	}

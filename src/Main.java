@@ -10,6 +10,7 @@ public class Main {
 		System.out.println("Start");
 
 		ai.test();
+		ai.test();
 		System.out.println("End");
 		Button.waitForAnyPress();
 
